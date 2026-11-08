@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+
+# Local files
+.env
+.env.*
+!.env.example
+.DS_Store
+.streamlit/secrets.toml
+*.log
+
+# Generated data
+.cache/
+outputs/
